@@ -1,0 +1,51 @@
+
+"WP703EW - Method of travel to work (2001 specification) (Workplace population)"
+"ONS Crown Copyright Reserved [from Nomis on 13 April 2026]"
+"Population :","All usual residents aged 16 to 74 in employment in the area the week before the census"
+"Units      :","Persons"
+"Date       :","2011"
+
+"Area","mnemonic","All categories: Method of travel to work (2001 specification)","Bicycle"
+
+"ualad09:Barking and Dagenham","E09000002",58444,939
+"ualad09:Barnet","E09000003",129112,1593
+"ualad09:Bexley","E09000004",74670,927
+"ualad09:Brent","E09000005",115221,2054
+"ualad09:Bromley","E09000006",111405,1366
+"ualad09:Camden","E09000007",272367,13909
+"ualad09:City of London","E09000001",356706,13501
+"ualad09:Croydon","E09000008",120398,1524
+"ualad09:Ealing","E09000009",132461,3211
+"ualad09:Enfield","E09000010",105493,1647
+"ualad09:Greenwich","E09000011",86199,1675
+"ualad09:Hackney","E09000012",103604,7924
+"ualad09:Hammersmith and Fulham","E09000013",124530,7158
+"ualad09:Haringey","E09000014",81001,1990
+"ualad09:Harrow","E09000015",73804,707
+"ualad09:Havering","E09000016",84726,885
+"ualad09:Hillingdon","E09000017",164963,2358
+"ualad09:Hounslow","E09000018",128880,4261
+"ualad09:Islington","E09000019",167159,10167
+"ualad09:Kensington and Chelsea","E09000020",116546,5899
+"ualad09:Kingston upon Thames","E09000021",72450,3042
+"ualad09:Lambeth","E09000022",137664,6495
+"ualad09:Lewisham","E09000023",78895,2109
+"ualad09:Merton","E09000024",75223,2464
+"ualad09:Newham","E09000025",103887,2091
+"ualad09:Redbridge","E09000026",78894,851
+"ualad09:Richmond upon Thames","E09000027",78387,4261
+"ualad09:Southwark","E09000028",183496,9021
+"ualad09:Sutton","E09000029",72286,1408
+"ualad09:Tower Hamlets","E09000030",234726,8697
+"ualad09:Waltham Forest","E09000031",79221,1653
+"ualad09:Wandsworth","E09000032",117924,5636
+"ualad09:Westminster","E09000033",579739,27190
+"gor:London","E12000007",4500481,158613
+
+
+
+"","In order to protect against disclosure of personal information, records"
+"","have been swapped between different geographic areas. Some counts will"
+"","be affected, particularly small counts at the lowest geographies"
+"",""
+

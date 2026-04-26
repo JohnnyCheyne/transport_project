@@ -9,7 +9,6 @@ plt.ion() # make the plotting interactive
 
 #LOAD DATA
 
-res_route = gpd.read_file('London_data/restricted_route.json')
 cycle = gpd.read_file('London_data/cycle_lane_track.json')  #2017/18 cycle routes
 london = gpd.read_file('London_data/London_Boroughs.gpkg')
 method_new = pd.read_csv('London_data/method.csv', skiprows=6)

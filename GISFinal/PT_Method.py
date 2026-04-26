@@ -4,7 +4,6 @@ import geopandas as gpd
 import pandas as pd
 import folium
 import webbrowser
-import cartopy.crs as ccrs
 
 #LOAD DATA
 
