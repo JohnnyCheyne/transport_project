@@ -27,8 +27,7 @@ cycle_t = cycle.drop(columns=['CLT_CARR',
                               'PHOTO2_URL'])
 cycle_t = cycle_t[(cycle_t == 'TRUE').any(axis=1)]
 uni_crs=ccrs.OSGB()
-#def cycle_handles(labels, colors, edge='k', alpha=1)
-#create a function to rank boroughs for their
+
 
 def borough_transit_rank(cycle_t, cycle, london):
 
