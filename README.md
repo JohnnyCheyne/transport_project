@@ -8,4 +8,4 @@ Cycle_program: This program runs using dependencies in the transport_environment
 
 PT_Method: This program runs like Cycle_program, but it uses Folium and automatically opens browser.
 
-The two workbook files are previous development, debugging and troubleshooting (behind the scenes)
+The two workbook files are previous development, debugging and troubleshooting (behind the scenes). Open these in JupyterLab.
