@@ -1,9 +1,9 @@
-## transport_project
+# transport_project
 
 You should have forked and cloned my transport_project repository locally, created a conda environment using transport_environment.yml, and launched a python IDE.
 *If you have not done this, see the How-to Guide for basic instructions.*
 
-# Files
+## Files
 
 **transport_environment.yml**: This file contains the dependencies for the conda environment, to enable the program operation.
   This also makes available JupyterLab and other tools.
