@@ -1,4 +1,4 @@
-
+#last modified 03/05/26
 import os
 import geopandas as gpd
 import pandas as pd
@@ -104,6 +104,7 @@ def uptake_borough():
 
         if column_input == 'exit':
             return program()
+
         if column_input in method:  # if input in dictionary: yes
             chosen_column = method[column_input]  # define chosen_column as input in dictionary
 
@@ -123,7 +124,7 @@ def uptake_borough():
             pc_use = highest_use_borough[chosen_column]  # locates exact value for column_name
             print(f'{column_input} is most popular in {highest_use_borough["name"]}')
             print(f'{pc_use} percent of people use {column_input} in {highest_use_borough["name"]}')
-
+            # improve the function by creating a dictionary inside to avoid using the alphanumeric titles.
             if os.name == 'nt':
                 path = path.replace('\\', ' / ')
                 map2_html = 'map2.html'
@@ -180,7 +181,7 @@ def program():
     else:
         print('Please try again:')
         program()
-        # improve the function by creating a dictionary inside to avoid using the alphanumeric titles.
+
 program()
 
 

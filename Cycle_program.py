@@ -1,4 +1,4 @@
-
+#last modified 03/05/26
 import os
 import geopandas as gpd
 import pandas as pd
@@ -38,7 +38,7 @@ def borough_transit_rank(cycle_t, cycle, london):
 
     Returns: - total possible dedicated lane (length) travellable in chosen borough
         - Cartopy plot of chosen London borough with dedicated and non-dedicated cycle tracks
-        - A borough ranking for its "true" cycle lane accomodation (2017 data)'''
+        - A borough ranking for its "true" cycle lane accommodation'''
 
     print(f'Options:\n{london['name'].to_string(index=False)}')
     print('Select a borough, or enter "exit" to return to menu')
@@ -141,7 +141,7 @@ def cycle_change(method_old, london, cycle_t):
 
     ''' Function returns a chloropleth map of Greater London. It
     depicts the change in bicycle usage by commuters between 2011
-     and 2021, as well as the dedicated cycle lanes as of 2017.
+     and 2021, as well as the dedicated cycle lanes as of.
 
      Args: travel_map (gdf): commuter data for 2011 and 2021
      cycle_t (gdf): dedicated cycle lane linestrings for Greater London
@@ -212,7 +212,7 @@ def program():
     print('Choose either "london" for an overview of London cycle tracks over the last decade and a half,'
           '\n or choose "borough" for a closer look at a specific borough')
     print('')
-    print('Cycle lane data is from 2017')
+    print('Cycle lane data may be from 2017 to 2021')
     print('Your choice below:')
     choice = input()
     if choice == 'borough':
